@@ -1,1 +1,9 @@
-MANIFEST
+include COPYING
+include README.rst
+include setup.cfg
+recursive-include src *.html *.txt *.png *.js *.css *.gif *.less *.mo *.po *.otf *.svg *.woff *.woff2 *.eot *.ttf
+prune src/wiki/attachments
+prune src/wiki/images
+# Exclude compiled version of source language, it's meaningless
+exclude wiki/locale/en/LC_MESSAGES/django.mo
+

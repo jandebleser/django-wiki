@@ -2,9 +2,13 @@
 build
 dist
 *.egg-info
-README.rst
 testproject/testproject/whoosh_index/
 testproject/testproject/xapian_index/
+
+tests/media
+
+# Ignore compiled version of source language
+wiki/locale/en/LC_MESSAGES/django.mo
 
 # Ignore this folder which is created by tests
 wiki/attachments
@@ -12,10 +16,15 @@ wiki/attachments
 #PyCharm
 .idea
 
+# Test artifacts
+cache
+wiki/images
 
 #Docs
 docs/_build
 docs/_build/*
+docs/wiki.*
+docs/modules.rst
 
 # Test project
 testproject/testproject/settings/local.py
@@ -27,6 +36,7 @@ pip-log.txt
 # Unit test / coverage reports
 .coverage
 .tox
+.cache
 
 #Eclipse
 .project

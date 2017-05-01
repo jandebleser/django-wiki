@@ -1,9 +1,15 @@
 # Contributing
 
-Contributions are appreciated! The following guide is a rough draft, but
-please feel free to contribute to this contribution doc as well :D
+## Support
+
+**DO NOT USE GITHUB FOR SUPPORT INQUIRIES! USE IRC OR MAILING LIST!**
+
+Django-wiki is community based, please try to be active. If you want help, plan to give help, too. For instance, if you join IRC, then stay around and help others.
 
 ## Issues
+
+Contributions are appreciated! The following guide is a rough draft, but
+please feel free to contribute to this contribution doc as well :D
 
 When submitting an Issue, please provide the following:
 
@@ -21,7 +27,7 @@ When submitting an Issue, please provide the following:
   * An example of how to reproduce the bug.
   * The expected result.
   * Does the bug happen with a checkout of django-wiki's master branch? To upgrade:
-    `pip install --upgrade git+https://github.com/benjaoming/django-wiki.git`
+    `pip install --upgrade git+https://github.com/django-wiki/django-wiki.git`
 
 ## Pull requests
 
@@ -41,4 +47,3 @@ Django needs a mature wiki system appealing to all kinds of needs, both big and 
  * **Be smart.** [This is](https://upload.wikimedia.org/wikipedia/commons/8/88/MediaWiki_database_schema_1-19_%28r102798%29.png) the map of tables in MediaWiki - we'll understand the choices of other wiki projects and make our own. After-all, this is a Django project.
  * **Be simple.** The source code should *almost* explain itself.
  * **Be structured.** Markdown is a simple syntax for readability. Features should be implemented either through easy coding patterns in the content field, but rather stored in a structured way (in the database) and managed through a friendly interface. This gives control back to the website developer, and makes knowledge more usable. Just ask: Why has Wikipedia never changed? Answer: Because it's knowledge is stored in a complicated way, thus it becomes very static.
-
