@@ -651,7 +651,9 @@ class UserCreationForm(UserCreationForm):
 
     class Meta:
         model = User
-        fields = ("username", "email")
+        fields = (
+            #"username",
+            "email",)
 
 class UserUpdateForm(forms.ModelForm):
     password1 = forms.CharField(label="New password", widget=forms.PasswordInput(), required=False)
